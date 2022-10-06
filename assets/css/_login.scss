@@ -1,0 +1,270 @@
+
+
+
+.login{
+    
+    .signin-header{
+            overflow: hidden;
+            .bgi-img {
+                padding-left: 99px;
+                padding-top: 66px;
+                background-image: url("https://new.axilthemes.com/demo/template/etrade/assets/images/bg/bg-image-9.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                height: 100vh;
+                width: 500px;
+
+                h2{
+                    padding-top: 99px;
+                }
+            }
+
+            .singin-header-btn{
+                .login-p{
+                    display: none;
+                }
+                padding-top: 66px;
+                padding-right: 99px;
+                   span{
+                    color: $black;
+                    font-size: 14px;
+                    font-weight: 600;
+                   }
+
+
+                .sign-up-btn{
+                    padding: 16px 38px;
+                    background-color: $pink;
+                    color: $white;
+                    margin-left: 35px;
+                    border-radius: 8px;
+                    text-decoration: none;
+                    transition: .3s;
+                    outline: none;
+                    border: none;
+                }
+                .sign-up-btn:hover{
+                    // padding: 22px 44px;
+                    // border: 10px solid $pink;
+                    
+                    transform: scale(1.1);
+                }
+            }
+            
+        }
+        
+        .signin-form-wrap {
+            width: 100%;
+            overflow-y: hidden;
+            display: flex;
+            margin: 180px -30px -30px;
+
+            .signin-form{
+                margin: 0;
+                max-width: 450px;
+                width: 100%;
+                padding: 30px;
+                h3{
+                    margin-bottom: 16px;
+                    font-size: 28px;
+                    font-weight: 700;
+                    text-align: start;
+                    margin-bottom: 22px;
+                }
+                p{
+                    font-size: 14px;
+                    color: $login-gray;
+                    text-align: start;
+                    margin-bottom: 55px;
+                }
+
+                .form-group{
+                    margin-bottom: 35px;
+                    position: relative;
+                    .form-control{
+                        height: 60px;
+                        border-color: $input-border;
+                        padding: 0 30px;
+                    }
+                    .forgot-btn {
+                        font-size: 14px;
+                        color:$blue;
+                        transition: .3s;
+                        outline: none;
+                        text-decoration: none;
+                    }           
+                    .forgot-btn:hover{
+                        color: $input-gray;
+                    }         
+                  }
+                  .form-group label {
+                    position: absolute;
+                    top: -11px;
+                    left: 20px;
+                    z-index: 4;
+                    background: #fff;
+                    padding: 0 10px;
+                    margin-bottom: 6px;
+                    font-size: 14px;
+                    line-height: 22px;
+                    font-weight: 500;
+                    //
+                  }
+                  .btn{
+                    background-color: $blue;
+                     color: $white;
+                     border-radius: 6px;
+                     font-size: 16px ;
+                     line-height: 1.7;
+                     font-weight: 700;
+                     display: inline-block;
+                     padding: 14px 34px;
+                     position: relative;
+                     transition: all .3s ease-in-out;
+                     z-index: 111111111;
+                  }
+                  .btn:hover{
+                    transform: scale(1.1);
+                  }
+                 
+            }
+
+        }
+
+       
+}
+
+
+
+.login-mobile
+{
+    display: none;
+    .mobile-signin-header{
+        overflow: hidden;
+        .mobile-bgi-img {
+            padding-left: 99px;
+            padding-top: 66px;
+            background-image: url("https://new.axilthemes.com/demo/template/etrade/assets/images/bg/bg-image-9.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            width: 500px;
+
+            h2{
+                padding-top: 99px;
+            }
+        }
+
+        .mobile-singin-header-btn{
+            padding-top: 66px;
+            padding-right: 99px;
+            span{
+                color: $black;
+                font-size: 14px;
+                font-weight: 600;
+            }
+
+
+            .mobile-sign-up-btn{
+                padding: 16px 38px;
+                background-color: $pink;
+                color: $white;
+                margin-left: 35px;
+                border-radius: 8px;
+                text-decoration: none;
+                transition: .3s;
+                outline: none;
+                border: none;
+            }
+            .mobile-sign-up-btn:hover{
+                // padding: 22px 44px;
+                // border: 10px solid $pink;
+                
+                transform: scale(1.1);
+            }
+
+        }
+        
+    }
+    
+    .mobile-signin-form-wrap {
+        width: 100%;
+        overflow-y: hidden;
+        display: flex;
+        margin: 180px -30px -30px;
+
+        .mobile-signin-form{
+            margin: 0;
+            max-width: 450px;
+            width: 100%;
+            padding: 30px;
+            h3{
+                margin-bottom: 16px;
+                font-size: 28px;
+                font-weight: 700;
+                text-align: start;
+                margin-bottom: 22px;
+            }
+            p{
+                font-size: 14px;
+                color: $login-gray;
+                text-align: start;
+                margin-bottom: 55px;
+            }
+
+            .mobile-form-group{
+                margin-bottom: 35px;
+                position: relative;
+                .form-control{
+                    height: 60px;
+                    border-color: $input-border;
+                    padding: 0 30px;
+                }
+                .mobile-forgot-btn {
+                    font-size: 14px;
+                    color:$blue;
+                    transition: .3s;
+                    outline: none;
+                    text-decoration: none;
+                }           
+                .mobile-forgot-btn:hover{
+                    color: $input-gray;
+                }         
+              }
+              .mobile-form-group label {
+                position: absolute;
+                top: -11px;
+                left: 20px;
+                z-index: 4;
+                background: #fff;
+                padding: 0 10px;
+                margin-bottom: 6px;
+                font-size: 14px;
+                line-height: 22px;
+                font-weight: 500;
+                //
+              }
+              .mobile-btn{
+                background-color: $blue;
+                 color: $white;
+                 border-radius: 6px;
+                 font-size: 16px ;
+                 line-height: 1.7;
+                 font-weight: 700;
+                 display: inline-block;
+                 padding: 14px 34px;
+                 position: relative;
+                 transition: all .3s ease-in-out;
+                 z-index: 111111111;
+              }
+              .mobile-btn:hover{
+                transform: scale(1.1);
+              }
+             
+        }
+
+    }
+
+}

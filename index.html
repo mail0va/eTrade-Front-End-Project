@@ -1,0 +1,2551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<link rel="stylesheet" href="assets/css/style.css">
+
+    <style>
+        .figure {
+          position: relative;
+          width: 360px;
+          max-width: 100%;
+        }
+        .figure img.image-hover {
+          position: absolute;
+          top: 0;
+          right: 0;
+          left: 0;
+          bottom: 0;
+          object-fit: contain;
+          opacity: 0;
+          transition: opacity .3s;
+        }
+        .figure:hover img.image-hover {
+          opacity: 1;
+        }
+
+    </style>
+
+
+</head>
+<body>
+  
+
+
+    <div class="back-to-top" id="back-to-top"><a href="#"><i class="fas fa-chevron-up"></i></a></div>
+
+    
+<header class="mt-3">
+<div class="container">
+    <div class="row align-items-center justify-content-between">
+        <div class="col-lg-2">
+            <div class="logo">
+                <img src="assets/image/header/logo.png" alt="">
+            </div>
+        </div>
+        <div class="col-lg-8">
+            <div class="header-input">
+                <i class=" ps-3 d-inline-block fa-solid fa-magnifying-glass"></i>
+                <input  type="search" maxlength="111" placeholder="What are you looking for...">    
+            </div>
+            </div>
+        <div class="col-lg-2 ">
+            <div class="dropdown ">
+                <button onclick="myFunction()" class="dropbtn">USD <i class="fa-solid fa-chevron-down"></i></button>
+                <div id="myDropdown" class="dropdown-content">
+                  <a href="#">USD</a>
+                  <a href="#">AUD</a>
+                  <a href="#">EUR</a>
+                </div>
+              </div>
+               <div class="dropdown2 ">
+                <button onclick="myFunction2()" class="dropbtn2">EN <i class="fa-solid fa-chevron-down"></i></button>
+                <div id="myDropdown2" class="dropdown-content2">
+                  <a href="#">EN</a>
+                  <a href="#">RU</a>
+                  <a href="#">AZ</a>
+                </div>
+              </div>
+        </div>
+        
+    </div>
+</div>
+</header>
+
+<div class="header-two">
+<div class="container">
+    <div class="row align-items-center justify-content-between">
+        <div class="col-lg-3">
+                <div class="header-category">
+                    <i class="fa-solid fa-bars"></i> Categories
+                </div>
+        </div>
+
+
+        <div class="col-lg-7">
+            <nav>
+                <div class="home-dropdown">
+                    <a href="index.html" class="home-dropbtn">Home  <i class="fa-solid fa-chevron-down"></i> </a>
+                    <div class="home-dropdown-content">
+                      <a href="#">Home - Electronics </a>
+                      <a href="#">Home - NFT</a>
+                      <a href="#">Home - Fashion</a>
+                      <a href="#">Home - Jewellery</a>
+                      <a href="#">Home - Furniture</a>
+                      <a href="index.html">Home - Multipurpose </a>
+                      <a href="#">Home - RTL Version </a>
+                    </div>
+                  </div>
+
+                  <div class="shop-dropdown">
+                    <a href="shop.html" class="shop-dropbtn">Shop  <i class="fa-solid fa-chevron-down"></i> </a>
+                    <div class="shop-dropdown-content">
+                      <a href="shop.html">Shop with SideBar</a>
+                      <a href="#">Shop no SideBar</a>
+                      <a href="products.html"> Product Variation 1</a>
+                      <a href="#">  Product Variation 2</a>
+                      <a href="#">  Product Variation 3</a>
+                      <a href="#">  Product Variation 4</a>
+                      <a href="#">  Product Variation 5</a>
+                      <a href="#">  Product Variation 6</a>
+                      <a href="#">  Product Variation 7</a>
+                    </div>
+                  </div> 
+                  
+                  <div class="page-dropdown">
+                    <a  class="page-dropbtn">Pages  <i class="fa-solid fa-chevron-down"></i> </a>
+                    <div class="page-dropdown-content">
+                      <a href="#"> Wishlist </a>
+                      <a href="cart.html"> Cart </a>
+                      <a href="#"> Checkout </a>
+                      <a href="#">  Account </a>
+                      <a href="#"> Sign Up </a>
+                      <a href="#"> Sign In </a>
+                      <a href="#"> Forgot Password </a>
+                      <a href="#"> Reset password </a>
+                      <a href="#"> Privacy Policy </a>
+                      <a href="#"> Coming Soon </a>
+                      <a href="#"> 404 Error </a>
+                      <a href="#"> Typography </a>
+                    </div>
+                  </div>
+
+                 <a class="about" href="#">About  </a>
+
+                 <div class="blog-dropdown">
+                    <a href="" class="blog-dropbtn">Blog  <i class="fa-solid fa-chevron-down"></i> </a>
+                    <div class="blog-dropdown-content">
+                      <a href="#"> Blog List  </a>
+                      <a href="#"> Blog Grid </a>
+                      <a href="#"> Standart  Post</a>
+                      <a href="#"> Gallery  Post</a>
+                      <a href="#"> Video  Post</a>
+                      <a href="#"> Audio  Post </a>
+                      <a href="#"> Quote  Post </a>
+                    </div>
+                  </div>
+
+                 <a class="contact" href="contact.html">Contact  </a>  
+                
+                </nav>
+            </div>
+
+        <div class="col-lg-2">
+              <div class="header-two-icons text-end align-items-center">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-cart-shopping"></i>  
+
+                    <div class="dropdown3 ">
+                        <button onclick="myFunction3()" class="dropbtn3 " ><i class="dropbtn3 fa-regular fa-user " ></i></button>
+                        <div id="myDropdown3" class="dropdown-content3">
+                            <p class="ps-3 pt-3">Quicklinks </p>
+                            <a href="#">Initiate return</a>
+                            <a href="#">Support</a>
+                            <a href="#"> Language</a>
+                            <a href="login.html"> <button class="loginbtn">  Login -> </button></a>
+                            <span class="ps-2">No account yet? <a class="d-inline-block reg" href="">Register here.</a></span>  
+                        </div>
+                      </div>
+              </div>
+        </div>
+    </div>
+</div>
+
+</div>
+
+
+<div class="header-m">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+            <div class="col-6">
+                <div class="logo-m">
+                    <img src="assets/image/header/logo.png" alt="">
+                </div>
+            </div>
+          
+            <div class="col-6 ">
+                <div class="dropdown ">
+                    <button onclick="myFunction()" class="dropbtn">USD <i class="fa-solid fa-chevron-down"></i></button>
+                    <div id="myDropdown" class="dropdown-content">
+                      <a href="#">USD</a>
+                      <a href="#">AUD</a>
+                      <a href="#">EUR</a>
+                    </div>
+                  </div>
+                   <div class="dropdown2 ">
+                    <button onclick="myFunction2()" class="dropbtn2">EN <i class="fa-solid fa-chevron-down"></i></button>
+                    <div id="myDropdown2" class="dropdown-content2">
+                      <a href="#">EN</a>
+                      <a href="#">RU</a>
+                      <a href="#">AZ</a>
+                    </div>
+                  </div>
+            </div>
+            
+        </div>
+</div>
+      </div>
+
+
+ <div class="header-mobile mt-1">
+<div class="container">
+    
+<div class="row align-items-center">
+    <div class="col-5">
+        <div class="header-m-category">
+     <div class="text-hm">  
+             <div class="cat-mobile">
+                <button class="catButton" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"
+                data-bs-target="#offcanvasWithBothOptions"
+                aria-controls="offcanvasWithBothOptions">
+                    <span class="">
+                        <i class="fa-solid fa-bars"></i>Categories </span>
+                </button>
+                
+                <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                    <div class="offcanvas-header">
+                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <div class="aside">
+                            <a class="f-icon" href=""> <span> <img width="25px" height="30px" src="assets/image/category/cat-01.png" alt=""></span> <span class="cat-span fashion">Fashion</span> <i class="fa-solid fa-chevron-down text-end first"></i>
+                            </a>
+                          
+        
+                            <a class="e-icon" href=""> <span> <img width="25px" height="30px" src="assets/image/category/cat-02.png" alt=""></span> <span class="cat-span elec">Electronics</span> <i class="fa-solid fa-chevron-down text-end second"></i>
+                            </a>
+        
+                            <a class="d-icon" href=""> <span> <img width="25px" height="30px" src="assets/image/category/cat-03.png" alt=""></span> <span class="cat-span decor">Home Decor</span> <i class="fa-solid fa-chevron-down text-end third"></i> 
+                            </a>
+                          
+                            <a href=""> <span> <img width="25px" height="30px" src="assets/image/category/cat-04.png" alt=""></span> <span class="cat-span">Medicine</span> </a>
+                            <a href=""> <span> <img width="25px" height="30px" src="assets/image/category/cat-05.png" alt=""></span> <span class="cat-span">Furniture</span> </a>
+                            <a href=""> <span> <img width="25px" height="30px" src="assets/image/category/cat-06.png" alt=""></span> <span class="cat-span">Crafts</span> </a>
+                            <a href=""> <span> <img width="25px" height="30px" src="assets/image/category/cat-07.png" alt=""></span> <span class="cat-span">Accessories</span> </a>
+                            <a class="border-bottom-0" href=""> <span> <img width="25px" height="30px" src="assets/image/category/cat-08.png" alt=""></span> <span class="cat-span">Camera</span> </a>
+                        </div>
+                    </div>
+
+              </div>
+
+
+        </div>
+    </div>
+</div>
+      
+    </div>
+
+    <div class="col-7">
+        <div class="header-m-two-icons text-end align-items-center">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-solid fa-cart-shopping"></i>  
+
+            <div class="dropdown4 ">
+                <button onclick="myFunction4()" class="dropbtn4 " ><i class="dropbtn4 fa-regular fa-user " ></i></button>
+                <div id="myDropdown4" class="dropdown-content4">
+                    <p class="ps-3 pt-3">Quicklinks </p>
+                    <a href="#">Initiate return</a>
+                    <a href="#">Support</a>
+                    <a href="#"> Language</a>
+                    <a href="login.html"> <button class="loginbtn">  Login </button></a>
+                    <span class="ps-2">No account yet? <a class="d-inline-block reg" href="">Register here.</a></span>  
+                </div>
+              </div>
+              
+              <i id="iconSide" class="fa-solid fa-bars"></i>
+
+              <!-- <div  id="sideBar" class="side-bar">
+                <a href="index.html"> Home</a>
+              <a href="cart.html"> Cart</a>
+              <a href="shop.html"> Shop</a>
+              <a href="products.html"> Product</a>
+              <a href="contact.html"> Contact</a>
+              <a href="login.html"> Login</a>
+              </div> -->
+              
+        </div>
+
+    </div>
+
+</div>
+</div>
+ </div>
+
+<div class="sliders"> 
+    <div class="container">
+        <div class="row align-items-center">          
+          <div class="col-lg-3"> 
+                <div class="aside">
+                    <a class="f-icon" href=""> <span> <img width="25px" height="30px" src="assets/image/category/cat-01.png" alt=""></span> <span class="cat-span fashion">Fashion</span> <i class="fa-solid fa-chevron-down text-end first"></i>
+                    </a>
+                  
+
+                    <a class="e-icon" href=""> <span> <img width="25px" height="30px" src="assets/image/category/cat-02.png" alt=""></span> <span class="cat-span elec">Electronics</span> <i class="fa-solid fa-chevron-down text-end second"></i>
+                    </a>
+
+                    <a class="d-icon" href=""> <span> <img width="25px" height="30px" src="assets/image/category/cat-03.png" alt=""></span> <span class="cat-span decor">Home Decor</span> <i class="fa-solid fa-chevron-down text-end third"></i> 
+                    </a>
+                  
+                    <a href=""> <span> <img width="25px" height="30px" src="assets/image/category/cat-04.png" alt=""></span> <span class="cat-span">Medicine</span> </a>
+                    <a href=""> <span> <img width="25px" height="30px" src="assets/image/category/cat-05.png" alt=""></span> <span class="cat-span">Furniture</span> </a>
+                    <a href=""> <span> <img width="25px" height="30px" src="assets/image/category/cat-06.png" alt=""></span> <span class="cat-span">Crafts</span> </a>
+                    <a href=""> <span> <img width="25px" height="30px" src="assets/image/category/cat-07.png" alt=""></span> <span class="cat-span">Accessories</span> </a>
+                    <a class="border-bottom-0" href=""> <span> <img width="25px" height="30px" src="assets/image/category/cat-08.png" alt=""></span> <span class="cat-span">Camera</span> </a>
+                </div>
+
+
+
+                
+            </div> 
+          
+                <div class="col-lg-7 ">
+                    <div class="slider mt-4">
+                        <div class="bg-grey pb-5  br-6">
+                            <div class="row py-5 px-5">
+                                <div class="col-lg-6" data-aos="fade-up" data-aos-duration="2000">
+                                    <span class="text-pink">
+                                        <i class="fa-solid fa-certificate icon"></i>
+                                        Mega Deal
+                                    </span>
+                                    <h1 class="text-black font1 fw-bold fs-50 py-4">Up to 60% off Sale</h1>
+                                    <a href="#" class="text-black text-decoration-none fw-semibold hover6 t-5">
+                                        Shop Now <i class="fa-solid fa-arrow-right-long ps-3 "></i>
+                                    </a>
+                                    
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class=" simgs bg-white clip-path position-absolute right-0" data-aos="fade-left" data-aos-duration="2000">
+                                        <img src="assets/image/slider/product-9.png" class="" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-grey pb-5 br-6">
+                            <div class="row py-5 px-5">
+                                <div class="col-lg-6 position-relative"  data-aos="fade-up" data-aos-duration="2000">
+                                    <span class="text-pink  ">
+                                        <i class="fa-solid fa-fire icon"></i>
+                                        Hot Deal
+                                    </span>
+                                    <h1 class="text-black font1 fw-bold fs-50 py-4">Up to 60% off Voucher</h1>
+                                    <a href="#" class="text-black text-decoration-none fw-semibold hover6 t-5">
+                                        Shop Now <i class="fa-solid fa-arrow-right-long ps-3 "></i>
+                                    </a>
+                                    
+                                </div>
+                                <div class="col-lg-6 ">
+                                    <div class="simgs bg-white clip-path  position-absolute right-0 " data-aos="fade-left" data-aos-duration="2000">
+                                        <img src="assets/image/slider/product-8.png" class="" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-grey pb-5 br-6">
+                            <div class="row py-5 px-5">
+                                <div class="col-lg-6"  data-aos="fade-up" data-aos-duration="2000">
+                                    <span class="text-pink ">
+                                        <i class="fa-solid fa-mobile-screen-button icon"></i>
+                                        Smartphone
+                                    </span>
+                                    <h1 class="text-black font1 fw-bold fs-50 py-4">Up to 60% off Voucher</h1>
+                                    <a href="#" class="text-black text-decoration-none fw-semibold hover6 t-5">
+                                        Shop Now <i class="fa-solid fa-arrow-right-long ps-3 "></i>
+                                    </a>
+                                    
+                                </div>
+                                <div class="col-lg-6 position-relative">
+                                    <div class="simgs bg-white position-absolute right-0  clip-path" data-aos="fade-left" data-aos-duration="2000">
+                                        <img src="assets/image/slider/product-7.png"  class="h-300 ps-5" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-2 ">
+                        <div class="sbox align-items-center ">
+                            <div class="bimg mb-5">
+                                <img src="assets/image/slider/product-41.png" alt="">
+                            </div>
+                            <div class="bdown">
+                                <h6> Stylish Leather Bag</h6>
+                                <h5>$29.99</h5>
+                            </div>
+                        </div>
+                </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="sales my-5">
+    <div class="container">
+         <div class="row align-items-center">
+    <div class="col-lg-2">
+       <div class="flash-text">
+        <i class="fa-solid fa-fire"></i>
+        <span>Today's</span>
+        <h2>Flash Sales</h2>
+       </div>
+    </div>
+
+    <div class="col-lg-4 pt-4">
+        <h2 class="text-center" id="counter"></h2>
+    </div>
+
+    <div class="col-lg-6 text-end">
+        <!-- <div class="sale-arrows ">
+            <div class="arrow-left ">
+            <i class="fa-solid fa-arrow-left"></i>
+            </div>
+            <div class="arrow-right ms-2">
+            <i class="fa-solid fa-arrow-right"></i>
+            </div>
+        </div> -->
+    </div>
+  </div>
+
+             <div class="row saless mt-5">
+        <div class="col-lg-3 ms-4">
+             <div class="sale-box">
+
+            <div class="sale-img over">
+                <div class="row align-items-center text-center  overlay">
+                    <div class="col-lg-2 col-3 ms-3">
+                        <a href="#" class="text-decoration-none ">
+                            <i class="fa-regular fa-heart"></i>
+                        </a>
+                    </div>
+                    <div class="col-lg-7 add pt-2 col-6">
+                        <a href="#" class="text-decoration-none text-white ">
+                            <span class="btn_add text-center fw-semibold">Add to Cart</span>
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-3">
+                        <a href="#" class="text-decoration-none ">
+                            <i class="fas fa-eye "></i>
+                        </a>
+                    </div>
+                </div>
+               <a  href="products.html">  <img src="assets/image/sales/product-02.png" alt=""></a>
+          <p>20% OFF</p>
+            </div>
+            
+            <div class="sale-text">
+                <p>Level 20 GRB Cherry</p>
+                    <span><del>$80</del> $60</span>
+            </div>
+             </div>
+
+        </div>
+
+        <div class="col-lg-3 ms-4">
+            <div class="sale-box">
+                <div class="sale-img over">
+                                    <div class="row align-items-center text-center  overlay">
+                    <div class="col-lg-2 col-3 ms-3">
+                        <a href="#" class="text-decoration-none ">
+                            <i class="fa-regular fa-heart"></i>
+                        </a>
+                    </div>
+                    <div class="col-lg-7 add pt-2 col-6">
+                        <a href="#" class="text-decoration-none text-white ">
+                            <span class="btn_add text-center fw-semibold">Add to Cart</span>
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-3">
+                        <a href="#" class="text-decoration-none ">
+                            <i class="fas fa-eye "></i>
+                        </a>
+                    </div>
+                </div>
+<a href="products.html"> 
+    <img src="assets/image/sales/product-19.png" alt="">
+
+</a>
+            </div>
+                <div class="sale-text">
+                    <p>Level 20 GRB Cherry</p>
+                        <span><del>$80</del> $60</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 ms-4">
+                <div id="6" class=" sale-box">
+                    <div class="sale-img over">
+                                        <div class="row align-items-center text-center  overlay">
+                    <div class="col-lg-2 col-3 ms-3">
+                        <a href="#" class="text-decoration-none ">
+                            <i class="fa-regular fa-heart"></i>
+                        </a>
+                    </div>
+                    <div class="col-lg-7 add pt-2 col-6">
+                        <a href="#" class="text-decoration-none text-white ">
+                            <span class="btn_add text-center fw-semibold">Add to Cart</span>
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-3">
+                        <a href="#" class="text-decoration-none ">
+                            <i class="fas fa-eye "></i>
+                        </a>
+                    </div>
+                </div>
+                       <a href="products.html">
+                        <img src="assets/image/sales/product-6.png" alt="">
+                        <p>50% OFF</p>
+                    </a>
+                    </div>
+                    <div class="sale-text">
+                        <p>Level 20 GRB Cherry</p>
+                            <span><del>$80</del> $60</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-3 ms-4">
+                    <div id="5" class="sale-box">
+                        <div class="sale-img over">
+                                            <div class="row align-items-center text-center  overlay">
+                    <div class="col-lg-2 col-3 ms-3">
+                        <a href="#" class="text-decoration-none ">
+                            <i class="fa-regular fa-heart"></i>
+                        </a>
+                    </div>
+                    <div class="col-lg-7 add pt-2 col-6">
+                        <a href="#" class="text-decoration-none text-white ">
+                            <span class="btn_add text-center fw-semibold">Add to Cart</span>
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-3">
+                        <a href="#" class="text-decoration-none ">
+                            <i class="fas fa-eye "></i>
+                        </a>
+                    </div>
+                </div>
+<a href="products.html">
+    <img src="assets/image/sales/product-4.png" alt="">
+    <p>30% OFF</p>
+</a>
+            </div>
+                        <div class="sale-text">
+                            <p>Level 20 GRB Cherry</p>
+                                <span><del>$80</del> $60</span>
+                        </div>
+                      </div>
+                    </div>
+        
+                    <div class="col-lg-3 ms-4">
+                        <div id="4" class="sale-box">
+                            <div class="sale-img over">
+                                                <div class="row align-items-center text-center  overlay">
+                    <div class="col-lg-2 col-3 ms-3">
+                        <a href="#" class="text-decoration-none ">
+                            <i class="fa-regular fa-heart"></i>
+                        </a>
+                    </div>
+                    <div class="col-lg-7 add pt-2 col-6">
+                        <a href="#" class="text-decoration-none text-white ">
+                            <span class="btn_add text-center fw-semibold">Add to Cart</span>
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-3">
+                        <a href="#" class="text-decoration-none ">
+                            <i class="fas fa-eye "></i>
+                        </a>
+                    </div>
+                </div>
+                <a href="products.html">
+                    <img src="assets/image/sales/product-5.png" alt="">
+
+                </a>
+                            </div>
+                            <div class="sale-text">
+                                <p>Level 20 GRB Cherry</p>
+                                    <span><del>$80</del> $60</span>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-lg-3 ms-4">
+                            <div id="1" class="sale-box">
+                                <div class="sale-img over">
+                                                    <div class="row align-items-center text-center  overlay">
+                    <div class="col-lg-2 col-3 ms-3">
+                        <a href="#" class="text-decoration-none ">
+                            <i class="fa-regular fa-heart"></i>
+                        </a>
+                    </div>
+                    <div class="col-lg-7 add pt-2 col-6">
+                        <a href="#" class="text-decoration-none text-white ">
+                            <span class="btn_add text-center fw-semibold">Add to Cart</span>
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-3">
+                        <a href="#" class="text-decoration-none ">
+                            <i class="fas fa-eye "></i>
+                        </a>
+                    </div>
+                </div>
+                <a href="products.html">
+                    <img src="assets/image/sales/product-04.png" alt="">
+                    <p>20% OFF</p>
+                </a>
+                                </div>
+                                <div class="sale-text">
+                                    <p>Level 20 GRB Cherry</p>
+                                        <span><del>$80</del> $60</span>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-lg-3 ms-4">
+                                <div id="2" class="sale-box">
+                                    <div class="sale-img over">
+                                                        <div class="row align-items-center text-center  overlay">
+                    <div class="col-lg-2 col-3 ms-3">
+                        <a href="#" class="text-decoration-none ">
+                            <i class="fa-regular fa-heart"></i>
+                        </a>
+                    </div>
+                    <div class="col-lg-7 add pt-2 col-6">
+                        <a href="#" class="text-decoration-none text-white ">
+                            <span class="btn_add text-center fw-semibold">Add to Cart</span>
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-3">
+                        <a href="#" class="text-decoration-none ">
+                            <i class="fas fa-eye "></i>
+                        </a>
+                    </div>
+                </div>
+                <a href="products.html">
+                    <img src="assets/image/sales/product-4 (1).png" alt="">
+                    <p>20% OFF</p>
+                </a>
+</div>
+                                    <div class="sale-text">
+                                        <p>Level 20 GRB Cherry</p>
+                                            <span><del>$80</del> $60</span>
+                                    </div>
+                                  </div>
+                                </div>
+                            <div class="col-lg-3 ms-4">
+                                <div id="3" class="sale-box">
+                                    <div class="sale-img over">
+                                                        <div class="row align-items-center text-center  overlay">
+                    <div class="col-lg-2 col-3 ms-3">
+                        <a href="#" class="text-decoration-none ">
+                            <i class="fa-regular fa-heart"></i>
+                        </a>
+                    </div>
+                    <div class="col-lg-7 add pt-2 col-6">
+                        <a href="#" class="text-decoration-none text-white ">
+                            <span class="btn_add text-center fw-semibold">Add to Cart</span>
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-3">
+                        <a href="#" class="text-decoration-none ">
+                            <i class="fas fa-eye "></i>
+                        </a>
+                    </div>
+                </div>
+<a href="products.html">
+    <img src="assets/image/sales/product-3.png" alt="">
+
+</a>                                    </div>
+                                    <div class="sale-text">
+                                        <p>Level 20 GRB Cherry</p>
+                                            <span><del>$80</del> $60</span>
+                                    </div>
+                                  </div>
+                                </div>
+                              
+            </div>
+    </div>
+
+</div>
+
+
+<div class="container mb-5">
+    <hr>
+</div>
+
+<div class="categories">
+    <div class="container">
+            <div class="row mb-5 align-items-center">
+
+                <div class="col-lg-4 mbb-5">
+                   <div class="category-text">
+                    <i class="fa-solid fa-tags"></i>
+                    <span>Categories</span>
+                    <h2>Browse by Category</h2>
+                   </div>
+                </div>
+
+                <div class="col-lg-8 text-end">
+                    <!-- <div class="cat-arrows ">
+                        <div class="cat-arrow-left ">
+                        <i class="fa-solid fa-arrow-left"></i>
+                        </div>
+                        <div class="cat-arrow-right ms-2">
+                        <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                    </div> -->
+                </div>
+                </div>
+
+                <div class="row align-items-center mb-5 cates">
+                        <div class="cat-box">
+                            <div class="cat-img ">
+                                <img src="assets/image/electronics/elec-1.png" alt="">
+                            </div>
+                            <div class="cat-text">
+                                <span>Watch</span>
+                            </div>
+                        </div>
+
+                        <div class="cat-box">
+                            <div class="cat-img">
+                                <img src="assets/image/electronics/elec-2.png" alt="">
+                            </div>
+                            <div class="cat-text">
+                                <span>Watch</span>
+                            </div>
+                        </div>
+
+                        <div class="cat-box">
+                            <div class="cat-img">
+                                <img src="assets/image/electronics/elec-4.png" alt="">
+                            </div>
+                            <div class="cat-text">
+                                <span>Watch</span>
+                            </div>
+                        </div>
+
+                        <div class="cat-box">
+                            <div class="cat-img">
+                                <img src="assets/image/electronics/elec-5.png" alt="">
+                            </div>
+                            <div class="cat-text">
+                                <span>Watch</span>
+                            </div>
+                        </div>
+
+                        <div class="cat-box">
+                            <div class="cat-img">
+                                <img src="assets/image/electronics/elec-6.png" alt="">
+                            </div>
+                            <div class="cat-text">
+                                <span>Watch</span>
+                            </div>
+                        </div>
+
+                        <div class="cat-box">
+                            <div class="cat-img">
+                                <img src="assets/image/electronics/elec-7.png" alt="">
+                            </div>
+                            <div class="cat-text">
+                                <span>Watch</span>
+                            </div>
+                        </div>
+
+                        <div class="cat-box">
+                            <div class="cat-img">
+                                <img src="assets/image/electronics/elec-8.png" alt="">
+                            </div>
+                            <div class="cat-text">
+                                <span>Watch</span>
+                            </div>
+                        </div>
+
+                        <div class="cat-box">
+                            <div class="cat-img">
+                                <img src="assets/image/electronics/elec-9.png" alt="">
+                            </div>
+                            <div class="cat-text">
+                                <span>Watch</span>
+                            </div>
+                        </div>
+
+                        <div class="cat-box">
+                            <div class="cat-img">
+                                <img src="assets/image/electronics/elec-10.png" alt="">
+                            </div>
+                            <div class="cat-text">
+                                <span>Watch</span>
+                            </div>
+                        </div>
+
+                        <div class="cat-box">
+                            <div class="cat-img">
+                                <img src="assets/image/electronics/elec-11.png" alt="">
+                            </div>
+                            <div class="cat-text">
+                                <span>Watch</span>
+                            </div>
+                        </div>
+
+                </div>
+    </div>
+</div>
+
+<div class="selling">
+    <div class="container">
+        <div class="row mb-5 align-items-center">
+                <div class="col-lg-4 mbb-5">
+                   <div class="selling-text">
+                    <i class="fa-solid fa-basket-shopping"></i>
+                    <span>This Month</span>
+                    <h2>Best Selling Products</h2>
+                   </div>
+                </div>
+
+                <!-- <div class="col-lg-8 text-end">
+                   <div class="sel-arrows ">
+                        <div class="sel-arrow-left ">
+                        <i class="fa-solid fa-arrow-left"></i>
+                        </div>
+                        <div class="sel-arrow-right ms-2">
+                        <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                    </div> -->
+                <!-- </div> -->
+         </div>
+
+
+        <div class="row sellings mb-5">
+
+                <div class="col-lg-3 ms-4">
+             <div class="sel-box">
+
+            <div class="sel-img over">
+                <div class="row align-items-center text-center  overlay">
+                    <div class="col-lg-2 col-3 ms-3">
+                        <a href="#" class="text-decoration-none ">
+                            <i class="fa-regular fa-heart"></i>
+                        </a>
+                    </div>
+                    <div class="col-lg-7 add pt-2 col-6">
+                        <a href="#" class="text-decoration-none text-white ">
+                            <span class="text-center fw-semibold">Add to Cart</span>
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-3">
+                        <a href="#" class="text-decoration-none ">
+                            <i class="fas fa-eye "></i>
+                        </a>
+                    </div>
+                </div>
+
+               <a  href="products.html">  <img src="assets/image/month-selling/product-05.png" alt=""></a>
+            </div>
+            
+            <div class="sel-text">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <span class="sel-span">(14)</span>
+                <p>Smart Watch</p>
+                    <span> $60 <del>$80</del></span>
+            </div>
+             </div>
+
+        </div>
+        <div class="col-lg-3 ms-4">
+            <div class="sel-box">
+
+           <div class="sel-img over">
+               <div class="row align-items-center text-center  overlay">
+                   <div class="col-lg-2 col-3 ms-3">
+                       <a href="#" class="text-decoration-none ">
+                           <i class="fa-regular fa-heart"></i>
+                       </a>
+                   </div>
+                   <div class="col-lg-7 add pt-2 col-6">
+                       <a href="#" class="text-decoration-none text-white ">
+                           <span class="text-center fw-semibold">Add to Cart</span>
+                       </a>
+                   </div>
+                   <div class="col-lg-2 col-3">
+                       <a href="#" class="text-decoration-none ">
+                           <i class="fas fa-eye "></i>
+                       </a>
+                   </div>
+               </div>
+
+              <a  href="products.html"> 
+                 <img src="assets/image/month-selling/product-15.png" alt=""></a>
+           </div>
+           
+           <div class="sel-text">
+               <i class="fa-solid fa-star"></i>
+               <i class="fa-solid fa-star"></i>
+               <i class="fa-solid fa-star"></i>
+               <i class="fa-solid fa-star"></i>
+               <i class="fa-regular fa-star"></i>
+               <span class="sel-span">(14)</span>
+               <p>Smart Watch</p>
+                   <span> $80 </span>
+           </div>
+            </div>
+
+       </div>
+
+       <div class="col-lg-3 ms-4">
+        <div class="sel-box">
+
+       <div class="sel-img over">
+           <div class="row align-items-center text-center  overlay">
+               <div class="col-lg-2 col-3 ms-3">
+                   <a href="#" class="text-decoration-none ">
+                       <i class="fa-regular fa-heart"></i>
+                   </a>
+               </div>
+               <div class="col-lg-7 add pt-2 col-6">
+                   <a href="#" class="text-decoration-none text-white ">
+                       <span class="text-center fw-semibold">Add to Cart</span>
+                   </a>
+               </div>
+               <div class="col-lg-2 col-3">
+                   <a href="#" class="text-decoration-none ">
+                       <i class="fas fa-eye "></i>
+                   </a>
+               </div>
+           </div>
+
+          <a  href="products.html">  <img src="assets/image/month-selling/product-24.png" alt=""></a>
+       </div>
+       
+       <div class="sel-text">
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <span class="sel-span">(14)</span>
+           <p>Smart Watch</p>
+               <span> $60 <del>$80</del></span>
+       </div>
+        </div>
+
+   </div>
+
+   <div class="col-lg-3 ms-4">
+    <div class="sel-box">
+
+   <div class="sel-img over">
+       <div class="row align-items-center text-center  overlay">
+           <div class="col-lg-2 col-3 ms-3">
+               <a href="#" class="text-decoration-none ">
+                   <i class="fa-regular fa-heart"></i>
+               </a>
+           </div>
+           <div class="col-lg-7 add pt-2 col-6">
+               <a href="#" class="text-decoration-none text-white ">
+                   <span class="text-center fw-semibold">Add to Cart</span>
+               </a>
+           </div>
+           <div class="col-lg-2 col-3">
+               <a href="#" class="text-decoration-none ">
+                   <i class="fas fa-eye "></i>
+               </a>
+           </div>
+       </div>
+
+      <a  href="products.html">  <img src="assets/image/month-selling/product-10.png" alt=""></a>
+   </div>
+   
+   <div class="sel-text">
+       <i class="fa-solid fa-star"></i>
+       <i class="fa-solid fa-star"></i>
+       <i class="fa-solid fa-star"></i>
+       <i class="fa-solid fa-star"></i>
+       <i class="fa-regular fa-star"></i>
+       <span class="sel-span">(55)</span>
+       <p>Smart Watch</p>
+           <span> $60 </span>
+   </div>
+    </div>
+
+</div>
+
+<div class="col-lg-3 ms-4">
+    <div class="sel-box">
+
+   <div class="sel-img over">
+       <div class="row align-items-center text-center  overlay">
+           <div class="col-lg-2 col-3 ms-3">
+               <a href="#" class="text-decoration-none ">
+                   <i class="fa-regular fa-heart"></i>
+               </a>
+           </div>
+           <div class="col-lg-7 add pt-2 col-6">
+               <a href="#" class="text-decoration-none text-white ">
+                   <span class="text-center fw-semibold">Add to Cart</span>
+               </a>
+           </div>
+           <div class="col-lg-2 col-3">
+               <a href="#" class="text-decoration-none ">
+                   <i class="fas fa-eye "></i>
+               </a>
+           </div>
+       </div>
+
+      <a  href="products.html">  <img src="assets/image/month-selling/product-25.png" alt=""></a>
+   </div>
+   
+   <div class="sel-text">
+       <i class="fa-solid fa-star"></i>
+       <i class="fa-solid fa-star"></i>
+       <i class="fa-solid fa-star"></i>
+       <i class="fa-solid fa-star"></i>
+       <i class="fa-regular fa-star"></i>
+       <span class="sel-span">(35)</span>
+       <p>Smart Watch</p>
+           <span> $153</span>
+   </div>
+    </div>
+
+</div>
+
+<div class="col-lg-3 ms-4">
+    <div class="sel-box">
+
+   <div class="sel-img over">
+       <div class="row align-items-center text-center  overlay">
+           <div class="col-lg-2 col-3 ms-3">
+               <a href="#" class="text-decoration-none ">
+                   <i class="fa-regular fa-heart"></i>
+               </a>
+           </div>
+           <div class="col-lg-7 add pt-2 col-6">
+               <a href="#" class="text-decoration-none text-white ">
+                   <span class="text-center fw-semibold">Add to Cart</span>
+               </a>
+           </div>
+           <div class="col-lg-2 col-3">
+               <a href="#" class="text-decoration-none ">
+                   <i class="fas fa-eye "></i>
+               </a>
+           </div>
+       </div>
+
+      <a  href="products.html">  <img src="assets/image/month-selling/product-10 (1).png" alt=""></a>
+   </div>
+   
+   <div class="sel-text">
+       <i class="fa-solid fa-star"></i>
+       <i class="fa-solid fa-star"></i>
+       <i class="fa-solid fa-star"></i>
+       <i class="fa-solid fa-star"></i>
+       <i class="fa-regular fa-star"></i>
+       <span class="sel-span">(5)</span>
+       <p>Smart Watch</p>
+           <span> $60 <del>$80</del></span>
+   </div>
+    </div>
+
+</div>
+
+<div class="col-lg-3 ms-4">
+    <div class="sel-box">
+
+   <div class="sel-img over">
+       <div class="row align-items-center text-center  overlay">
+           <div class="col-lg-2 col-3 ms-3">
+               <a href="#" class="text-decoration-none ">
+                   <i class="fa-regular fa-heart"></i>
+               </a>
+           </div>
+           <div class="col-lg-7 add pt-2 col-6">
+               <a href="#" class="text-decoration-none text-white ">
+                   <span class="text-center fw-semibold">Add to Cart</span>
+               </a>
+           </div>
+           <div class="col-lg-2 col-3">
+               <a href="#" class="text-decoration-none ">
+                   <i class="fas fa-eye "></i>
+               </a>
+           </div>
+       </div>
+
+      <a  href="products.html">  <img src="assets/image/month-selling/product-12.png" alt=""></a>
+   </div>
+   
+   <div class="sel-text">
+       <i class="fa-solid fa-star"></i>
+       <i class="fa-solid fa-star"></i>
+       <i class="fa-solid fa-star"></i>
+       <i class="fa-solid fa-star"></i>
+       <i class="fa-regular fa-star"></i>
+       <span class="sel-span">(76)</span>
+       <p>Smart Watch</p>
+           <span>$555</span>
+   </div>
+    </div>
+
+</div>
+
+<div class="col-lg-3 ms-4">
+    <div class="sel-box">
+
+   <div class="sel-img over">
+       <div class="row align-items-center text-center  overlay">
+           <div class="col-lg-2 col-3 ms-3">
+               <a href="#" class="text-decoration-none ">
+                   <i class="fa-regular fa-heart"></i>
+               </a>
+           </div>
+           <div class="col-lg-7 add pt-2 col-6">
+               <a href="#" class="text-decoration-none text-white ">
+                   <span class="text-center fw-semibold">Add to Cart</span>
+               </a>
+           </div>
+           <div class="col-lg-2 col-3">
+               <a href="#" class="text-decoration-none ">
+                   <i class="fas fa-eye "></i>
+               </a>
+           </div>
+       </div>
+
+      <a  href="products.html">  <img src="assets/image/month-selling/product-13.png" alt=""></a>
+   </div>
+   
+   <div class="sel-text">
+       <i class="fa-solid fa-star"></i>
+       <i class="fa-solid fa-star"></i>
+       <i class="fa-solid fa-star"></i>
+       <i class="fa-solid fa-star"></i>
+       <i class="fa-regular fa-star"></i>
+       <span class="sel-span">(55)</span>
+       <p>Smart Watch</p>
+           <span> $120</span>
+   </div>
+    </div>
+
+</div>
+
+
+
+        </div>
+
+
+    </div>
+</div>
+
+<div class="container mb-5">
+    <hr>
+</div>
+
+<div class="experience d-sm-block d-none">
+    <div class="container">
+        <div class="row ex mb-5 align-items-center justify-content-between">
+
+
+            <div class="col-lg-6 col-12">
+<div class="ex-box">
+    <div class="exper-text">
+        <i class="fa-solid fa-headphones-simple"></i>
+        <span>Don’t Miss!!</span>
+        <h1>Enhance Your <br> Music Experience</h1>
+    </div>
+    
+<h2 id="counter2"> </h2>
+
+    <button href=""> Check it out !</button>
+</div>
+            </div>
+            <div class="col-lg-6 col-12">
+
+            <div class="ex-img">
+                <div class="poster-headphones">
+                    <img src="assets/image/rate/poster-03.png" class="w-100" alt="">
+                    <div class="music-signal">
+                        <div class="item-circle circle-1"></div>
+                        <div class="item-circle circle-2"></div>
+                        <div class="item-circle circle-3"></div>
+                        <div class="item-circle circle-4"></div>
+                        <div class="item-circle circle-5"></div>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+<div class="d-block d-sm-none ">
+    <div class="container">
+        <div class="ex-mobile py-5">
+            <div class="col-12 extbox text-center">
+                <div class="ext fw-semibold mx-5">
+                    <i class="fa-solid fa-headphones-simple icon"></i>
+                    Don’t Miss!!
+                </div>
+                <h1 class="px-5 exh">Enhance Your Music Experience</h1>
+                <h2 class="px-5 exhh pb-3" id="date2"></h2>
+                <button href="#" class="">Check it Out!</button>
+            </div>
+            <div class="col-9 mx-auto pt-5">
+                <img src="assets/image/rate/poster-03.png  " class="w-100  " alt="">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="products">
+
+    <div class="container">
+        <div class="row mb-5 align-items-center">
+            <div class="col-lg-4">
+               <div class="product-text mtt-5">
+                <i class="fa-solid fa-store"></i>
+                <span> Our Products</span>
+                <h2>Explore our Products</h2>
+               </div>
+            </div>
+
+            <div class="col-lg-8 text-end">
+                <!-- <div class="product-arrows ">
+                    <div class="product-arrow-left ">
+                    <i class="fa-solid fa-arrow-left"></i>
+                    </div>
+                    <div class="product-arrow-right ms-2">
+                    <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div> -->
+            </div>
+         </div>
+
+
+         <div class="row mb-5">
+            <div class="product">
+                    <div class="pro-box">
+                        <div class="pro-img over figure">
+                            <div class="row align-items-center text-center  overlay">
+                                <div class="col-lg-2 col-3 ms-3">
+                                    <a href="#" class="text-decoration-none ">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                </div>
+                                <div class="col-lg-7 add pt-2 col-6">
+                                    <a href="#" class="text-decoration-none text-white ">
+                                        <span class="text-center fw-semibold">Add to Cart</span>
+                                    </a>
+                                </div>
+                                <div class="col-lg-2 col-3">
+                                    <a href="#" class="text-decoration-none ">
+                                        <i class="fas fa-eye "></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <img src="assets/image/explore-products/product-01.png" class="hover10 t-5 w-100 Sirv image-main" alt="">
+
+                            <img src="assets/image/explore-products/product-08.png" class="Sirv image-hover" alt="">
+
+                            <p>35% OFF</p>
+                        </div>
+                        <div class="pro-text">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <span class="pro-span">(14)</span>
+                            <p>Yantiti Leather & Canvas Bags</p>
+                                <span> $29.99 <del>$80</del></span>
+                        </div>
+                    </div>
+              
+                    <div class="pro-box">
+                        <div class="pro-img over figure">
+                            <div class="row align-items-center text-center  overlay">
+                                <div class="col-lg-2 col-3 ms-3">
+                                    <a href="#" class="text-decoration-none ">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                </div>
+                                <div class="col-lg-7 add pt-2 col-6">
+                                    <a href="#" class="text-decoration-none text-white ">
+                                        <span class="text-center fw-semibold">Add to Cart</span>
+                                    </a>
+                                </div>
+                                <div class="col-lg-2 col-3">
+                                    <a href="#" class="text-decoration-none ">
+                                        <i class="fas fa-eye "></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <img src="assets/image/month-selling/product-15.png" class="hover10 t-5 w-100 Sirv image-main" alt="">
+
+                            <img src="assets/image/explore-products/product-24 (1).png" class="Sirv image-hover" alt="">
+
+                            <p>35% OFF</p>
+                        </div>
+                        <div class="pro-text">
+                    
+                            <p>Yantiti Leather & Canvas Bags</p>
+                                <span class="d-block"> $29.99 <del>$80</del></span>
+                                <input id="input1" checked value="radioss" name="radios" type="radio">
+                                <input id="input2" value="radioss" name="radios" type="radio">
+                                <input id="input3" value="radioss" name="radios" type="radio">
+                               
+                        </div>
+                    </div>
+          
+                    <div class="pro-box">
+                        <div class="pro-img over figure">
+                            <div class="row align-items-center text-center  overlay">
+                                <div class="col-lg-2 col-3 ms-3">
+                                    <a href="#" class="text-decoration-none ">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                </div>
+                                <div class="col-lg-7 add pt-2 col-6">
+                                    <a href="#" class="text-decoration-none text-white ">
+                                        <span class="text-center fw-semibold">Add to Cart</span>
+                                    </a>
+                                </div>
+                                <div class="col-lg-2 col-3">
+                                    <a href="#" class="text-decoration-none ">
+                                        <i class="fas fa-eye "></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <img src="assets/image/explore-products/product-1.png" class="hover10 t-5 w-100 Sirv image-main" alt="">
+
+                            <img src="assets/image/explore-products/product-2.png" class="Sirv image-hover" alt="">
+
+                            <p>35% OFF</p>
+                        </div>
+                        <div class="pro-text">
+                            <p>Yantiti Leather & Canvas Bags</p>
+                                <span> $29.99 <del>$80</del></span>
+                                <input id="input1" checked value="radioss" name="radios" type="radio">
+                                <input id="input2" value="radioss" name="radios" type="radio">
+                                <input id="input3" value="radioss" name="radios" type="radio">
+                             
+                        </div>
+                    </div>
+                    
+                    <div class="pro-box">
+                        <div class="pro-img over figure">
+                            <div class="row align-items-center text-center  overlay">
+                                <div class="col-lg-2 col-3 ms-3">
+                                    <a href="#" class="text-decoration-none ">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                </div>
+                                <div class="col-lg-7 add pt-2 col-6">
+                                    <a href="#" class="text-decoration-none text-white ">
+                                        <span class="text-center fw-semibold">Add to Cart</span>
+                                    </a>
+                                </div>
+                                <div class="col-lg-2 col-3">
+                                    <a href="#" class="text-decoration-none ">
+                                        <i class="fas fa-eye "></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <img src="assets/image/explore-products/product-3.png" class="hover10 t-5 w-100 Sirv image-main" alt="">
+
+                            <img src="assets/image/sales/product-4.png" class="Sirv image-hover" alt="">
+
+                            <p>35% OFF</p>
+                        </div>
+                        <div class="pro-text">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <span class="pro-span">(55)</span>
+                            <p>Yantiti Leather & Canvas Bags</p>
+                                <span> $29.99 <del>$50</del></span>
+                        </div>
+                    </div>
+
+                    <div class="pro-box">
+                        <div class="pro-img over figure">
+                            <div class="row align-items-center text-center  overlay">
+                                <div class="col-lg-2 col-3 ms-3">
+                                    <a href="#" class="text-decoration-none ">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                </div>
+                                <div class="col-lg-7 add pt-2 col-6">
+                                    <a href="#" class="text-decoration-none text-white ">
+                                        <span class="text-center fw-semibold">Add to Cart</span>
+                                    </a>
+                                </div>
+                                <div class="col-lg-2 col-3">
+                                    <a href="#" class="text-decoration-none ">
+                                        <i class="fas fa-eye "></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <img src="assets/image/arrivals/product-10.png" class="hover10 t-5 w-100 Sirv image-main" alt="">
+
+                            <img src="assets/image/arrivals/product-12.png" class="Sirv image-hover" alt="">
+
+                            <p>35% OFF</p>
+                        </div>
+                        <div class="pro-text">
+                            <p>Yantiti Leather & Canvas Bags</p>
+                                <span> $29.99 <del>$50</del></span>
+
+                                    <input id="input1" checked value="radioss" name="radios" type="radio">
+                                <input id="input2" value="radioss" name="radios" type="radio">
+                                <input id="input3" value="radioss" name="radios" type="radio">
+                             
+                            </div>
+                    </div>
+
+
+                    <div class="pro-box">
+                        <div class="pro-img over ">
+                            <div class="row align-items-center text-center  overlay">
+                                <div class="col-lg-2 col-3 ms-3">
+                                    <a href="#" class="text-decoration-none ">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                </div>
+                                <div class="col-lg-7 add pt-2 col-6">
+                                    <a href="#" class="text-decoration-none text-white ">
+                                        <span class="text-center fw-semibold">Add to Cart</span>
+                                    </a>
+                                </div>
+                                <div class="col-lg-2 col-3">
+                                    <a href="#" class="text-decoration-none ">
+                                        <i class="fas fa-eye "></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <img src="assets/image/arrivals/product-16.png" class="hover10 t-5 w-100 Sirv image-main" alt="">
+
+
+                            <p>35% OFF</p>
+                        </div>
+                        <div class="pro-text">
+                      
+                            <p>Yantiti Leather & Canvas Bags</p>
+                                <span> $29.99 <del>$50</del></span>
+
+                                    <input id="input1" checked value="radioss" name="radios" type="radio">
+                                <input id="input2" value="radioss" name="radios" type="radio">
+                                <input id="input3" value="radioss" name="radios" type="radio">
+                             
+                            </div>
+                    </div>
+
+                    <div class="pro-box">
+                        <div class="pro-img over figure">
+                            <div class="row align-items-center text-center  overlay">
+                                <div class="col-lg-2 col-3 ms-3">
+                                    <a href="#" class="text-decoration-none ">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                </div>
+                                <div class="col-lg-7 add pt-2 col-6">
+                                    <a href="#" class="text-decoration-none text-white ">
+                                        <span class="text-center fw-semibold">Add to Cart</span>
+                                    </a>
+                                </div>
+                                <div class="col-lg-2 col-3">
+                                    <a href="#" class="text-decoration-none ">
+                                        <i class="fas fa-eye "></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <img src="assets/image/explore-products/product-08.png" class="hover10 t-5 w-100 Sirv image-main" alt="">
+
+                            <img src="assets/image/explore-products/product-big-02.png" class="Sirv image-hover" alt="">
+
+                            <p>35% OFF</p>
+                        </div>
+                        <div class="pro-text">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <span class="pro-span">(55)</span>
+                            <p>Yantiti Leather & Canvas Bags</p>
+                                <span> $29.99 <del>$50</del></span>
+                        </div>
+                    </div>
+
+
+                    <div class="pro-box">
+                        <div class="pro-img over ">
+                            <div class="row align-items-center text-center  overlay">
+                                <div class="col-lg-2 col-3 ms-3">
+                                    <a href="#" class="text-decoration-none ">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                </div>
+                                <div class="col-lg-7 add pt-2 col-6">
+                                    <a href="#" class="text-decoration-none text-white ">
+                                        <span class="text-center fw-semibold">Add to Cart</span>
+                                    </a>
+                                </div>
+                                <div class="col-lg-2 col-3">
+                                    <a href="#" class="text-decoration-none ">
+                                        <i class="fas fa-eye "></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <img src="assets/image/arrivals/product-15 (1).png" class="hover10 t-5 w-100 Sirv image-main" alt="">
+
+
+                            <p>35% OFF</p>
+                        </div>
+                        <div class="pro-text">
+                            <p>Yantiti Leather & Canvas Bags</p>
+                                <span> $29.99 <del>$50</del></span>
+                                <input id="input1" checked value="radioss" name="radios" type="radio">
+                                <input id="input2" value="radioss" name="radios" type="radio">
+                                <input id="input3" value="radioss" name="radios" type="radio">
+                             
+                        </div>
+                    </div>
+
+
+
+            </div>
+         </div>
+         
+         <div class="row mt-6 mb-5">
+            <div class="product">
+
+                
+                <div class="pro-box">
+                    <div class="pro-img over figure">
+                        <div class="row align-items-center text-center  overlay">
+                            <div class="col-lg-2 col-3 ms-3">
+                                <a href="#" class="text-decoration-none ">
+                                    <i class="fa-regular fa-heart"></i>
+                                </a>
+                            </div>
+                            <div class="col-lg-7 add pt-2 col-6">
+                                <a href="#" class="text-decoration-none text-white ">
+                                    <span class="text-center fw-semibold">Add to Cart</span>
+                                </a>
+                            </div>
+                            <div class="col-lg-2 col-3">
+                                <a href="#" class="text-decoration-none ">
+                                    <i class="fas fa-eye "></i>
+                                </a>
+                            </div>
+                        </div>
+                        <img src="assets/image/arrivals/product-10.png" class="hover10 t-5 w-100 Sirv image-main" alt="">
+
+                        <img src="assets/image/arrivals/product-12.png" class="Sirv image-hover" alt="">
+
+                        <p>35% OFF</p>
+                    </div>
+                    <div class="pro-text">
+                        <p>Yantiti Leather & Canvas Bags</p>
+                            <span> $29.99 <del>$50</del></span>
+
+                                <input id="input1" checked value="radioss" name="radios" type="radio">
+                            <input id="input2" value="radioss" name="radios" type="radio">
+                            <input id="input3" value="radioss" name="radios" type="radio">
+                         
+                        </div>
+                </div>
+
+
+                <div class="pro-box">
+                    <div class="pro-img over ">
+                        <div class="row align-items-center text-center  overlay">
+                            <div class="col-lg-2 col-3 ms-3">
+                                <a href="#" class="text-decoration-none ">
+                                    <i class="fa-regular fa-heart"></i>
+                                </a>
+                            </div>
+                            <div class="col-lg-7 add pt-2 col-6">
+                                <a href="#" class="text-decoration-none text-white ">
+                                    <span class="text-center fw-semibold">Add to Cart</span>
+                                </a>
+                            </div>
+                            <div class="col-lg-2 col-3">
+                                <a href="#" class="text-decoration-none ">
+                                    <i class="fas fa-eye "></i>
+                                </a>
+                            </div>
+                        </div>
+                        <img src="assets/image/arrivals/product-16.png" class="hover10 t-5 w-100 Sirv image-main" alt="">
+
+
+                        <p>35% OFF</p>
+                    </div>
+                    <div class="pro-text">
+                  
+                        <p>Yantiti Leather & Canvas Bags</p>
+                            <span> $29.99 <del>$50</del></span>
+
+                                <input id="input1" checked value="radioss" name="radios" type="radio">
+                            <input id="input2" value="radioss" name="radios" type="radio">
+                            <input id="input3" value="radioss" name="radios" type="radio">
+                         
+                        </div>
+                </div>
+
+                <div class="pro-box">
+                    <div class="pro-img over figure">
+                        <div class="row align-items-center text-center  overlay">
+                            <div class="col-lg-2 col-3 ms-3">
+                                <a href="#" class="text-decoration-none ">
+                                    <i class="fa-regular fa-heart"></i>
+                                </a>
+                            </div>
+                            <div class="col-lg-7 add pt-2 col-6">
+                                <a href="#" class="text-decoration-none text-white ">
+                                    <span class="text-center fw-semibold">Add to Cart</span>
+                                </a>
+                            </div>
+                            <div class="col-lg-2 col-3">
+                                <a href="#" class="text-decoration-none ">
+                                    <i class="fas fa-eye "></i>
+                                </a>
+                            </div>
+                        </div>
+                        <img src="assets/image/explore-products/product-08.png" class="hover10 t-5 w-100 Sirv image-main" alt="">
+
+                        <img src="assets/image/explore-products/product-big-02.png" class="Sirv image-hover" alt="">
+
+                        <p>35% OFF</p>
+                    </div>
+                    <div class="pro-text">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <span class="pro-span">(55)</span>
+                        <p>Yantiti Leather & Canvas Bags</p>
+                            <span> $29.99 <del>$50</del></span>
+                    </div>
+                </div>
+
+                <div class="pro-box">
+                    <div class="pro-img over ">
+                        <div class="row align-items-center text-center  overlay">
+                            <div class="col-lg-2 col-3 ms-3">
+                                <a href="#" class="text-decoration-none ">
+                                    <i class="fa-regular fa-heart"></i>
+                                </a>
+                            </div>
+                            <div class="col-lg-7 add pt-2 col-6">
+                                <a href="#" class="text-decoration-none text-white ">
+                                    <span class="text-center fw-semibold">Add to Cart</span>
+                                </a>
+                            </div>
+                            <div class="col-lg-2 col-3">
+                                <a href="#" class="text-decoration-none ">
+                                    <i class="fas fa-eye "></i>
+                                </a>
+                            </div>
+                        </div>
+                        <img src="assets/image/arrivals/product-15 (1).png" class="hover10 t-5 w-100 Sirv image-main" alt="">
+
+
+                        <p>35% OFF</p>
+                    </div>
+                    <div class="pro-text">
+                        <p>Yantiti Leather & Canvas Bags</p>
+                            <span> $29.99 <del>$50</del></span>
+                            <input id="input1" checked value="radioss" name="radios" type="radio">
+                            <input id="input2" value="radioss" name="radios" type="radio">
+                            <input id="input3" value="radioss" name="radios" type="radio">
+                         
+                    </div>
+                </div>
+
+                    <div class="pro-box">
+                        <div class="pro-img over figure">
+                            <div class="row align-items-center text-center  overlay">
+                                <div class="col-lg-2 col-3 ms-3">
+                                    <a href="#" class="text-decoration-none ">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                </div>
+                                <div class="col-lg-7 add pt-2 col-6">
+                                    <a href="#" class="text-decoration-none text-white ">
+                                        <span class="text-center fw-semibold">Add to Cart</span>
+                                    </a>
+                                </div>
+                                <div class="col-lg-2 col-3">
+                                    <a href="#" class="text-decoration-none ">
+                                        <i class="fas fa-eye "></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <img src="assets/image/explore-products/product-01.png" class="hover10 t-5 w-100 Sirv image-main" alt="">
+
+                            <img src="assets/image/explore-products/product-08.png" class="Sirv image-hover" alt="">
+
+                            <p>35% OFF</p>
+                        </div>
+                        <div class="pro-text">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <span class="pro-span">(14)</span>
+                            <p>Yantiti Leather & Canvas Bags</p>
+                                <span> $29.99 <del>$80</del></span>
+                        </div>
+                    </div>
+              
+                    <div class="pro-box">
+                        <div class="pro-img over figure">
+                            <div class="row align-items-center text-center  overlay">
+                                <div class="col-lg-2 col-3 ms-3">
+                                    <a href="#" class="text-decoration-none ">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                </div>
+                                <div class="col-lg-7 add pt-2 col-6">
+                                    <a href="#" class="text-decoration-none text-white ">
+                                        <span class="text-center fw-semibold">Add to Cart</span>
+                                    </a>
+                                </div>
+                                <div class="col-lg-2 col-3">
+                                    <a href="#" class="text-decoration-none ">
+                                        <i class="fas fa-eye "></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <img src="assets/image/month-selling/product-15.png" class="hover10 t-5 w-100 Sirv image-main" alt="">
+
+                            <img src="assets/image/explore-products/product-24 (1).png" class="Sirv image-hover" alt="">
+
+                            <p>35% OFF</p>
+                        </div>
+                        <div class="pro-text">
+                    
+                            <p>Yantiti Leather & Canvas Bags</p>
+                                <span class="d-block"> $29.99 <del>$80</del></span>
+                                <input id="input1" checked value="radioss" name="radios" type="radio">
+                                <input id="input2" value="radioss" name="radios" type="radio">
+                                <input id="input3" value="radioss" name="radios" type="radio">
+                               
+                        </div>
+                    </div>
+          
+                    <div class="pro-box">
+                        <div class="pro-img over figure">
+                            <div class="row align-items-center text-center  overlay">
+                                <div class="col-lg-2 col-3 ms-3">
+                                    <a href="#" class="text-decoration-none ">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                </div>
+                                <div class="col-lg-7 add pt-2 col-6">
+                                    <a href="#" class="text-decoration-none text-white ">
+                                        <span class="text-center fw-semibold">Add to Cart</span>
+                                    </a>
+                                </div>
+                                <div class="col-lg-2 col-3">
+                                    <a href="#" class="text-decoration-none ">
+                                        <i class="fas fa-eye "></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <img src="assets/image/explore-products/product-1.png" class="hover10 t-5 w-100 Sirv image-main" alt="">
+
+                            <img src="assets/image/explore-products/product-2.png" class="Sirv image-hover" alt="">
+
+                            <p>35% OFF</p>
+                        </div>
+                        <div class="pro-text">
+                            <p>Yantiti Leather & Canvas Bags</p>
+                                <span> $29.99 <del>$80</del></span>
+                                <input id="input1" checked value="radioss" name="radios" type="radio">
+                                <input id="input2" value="radioss" name="radios" type="radio">
+                                <input id="input3" value="radioss" name="radios" type="radio">
+                             
+                        </div>
+                    </div>
+                    
+                    <div class="pro-box">
+                        <div class="pro-img over figure">
+                            <div class="row align-items-center text-center  overlay">
+                                <div class="col-lg-2 col-3 ms-3">
+                                    <a href="#" class="text-decoration-none ">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                </div>
+                                <div class="col-lg-7 add pt-2 col-6">
+                                    <a href="#" class="text-decoration-none text-white ">
+                                        <span class="text-center fw-semibold">Add to Cart</span>
+                                    </a>
+                                </div>
+                                <div class="col-lg-2 col-3">
+                                    <a href="#" class="text-decoration-none ">
+                                        <i class="fas fa-eye "></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <img src="assets/image/explore-products/product-3.png" class="hover10 t-5 w-100 Sirv image-main" alt="">
+
+                            <img src="assets/image/sales/product-4.png" class="Sirv image-hover" alt="">
+
+                            <p>35% OFF</p>
+                        </div>
+                        <div class="pro-text">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <span class="pro-span">(55)</span>
+                            <p>Yantiti Leather & Canvas Bags</p>
+                                <span> $29.99 <del>$50</del></span>
+                        </div>
+                    </div>
+
+
+
+            </div>
+         </div>
+    </div>
+</div>
+
+<div class="testimontials">
+
+
+    <div class="container">
+        <div class="row mb-5 align-items-center">
+            <div class="col-lg-4">
+               <div class="test-text mt-3">
+                <i class="fa-solid fa-quote-left"></i>
+                <span>Testimonials</span>
+                <h2 class="mt-3">Users Feedback</h2>
+               </div>
+            </div>
+
+            <div class="col-lg-8 text-end">
+                <!-- <div class="test-arrows ">
+                    <div class="test-arrow-left ">
+                    <i class="fa-solid fa-arrow-left"></i>
+                    </div>
+                    <div class="test-arrow-right ms-2">
+                    <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div> -->
+            </div>
+         </div>
+
+<div class="row  testimonial">
+    <div class="col-lg-4 ms-4 me-24">
+        <div class="testbox">
+        <div class="test-desc">
+            <p>“ It’s amazing how much easier it has been to
+                meet new people and create instantly non
+                connections. I have the exact same personal
+                the only thing that has changed is my mind
+                set and a few behaviors. “</p>
+                <span class="triangle "></span>
+        </div>
+        
+        <div class="test-down mt-5 d-flex mt-5">
+            <div class="test-left">
+                <img src="assets/image/testimonial/image-1.png" alt="">
+            </div>
+            <div class=" test-right pt-1 ps-3">
+                <span class="d-block">Head of idea</span>
+                <h5>James C.Anderson</h5>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="col-lg-4  ms-4 me-24">
+        <div class="testbox">
+        <div class="test-desc">
+            <p>“ It’s amazing how much easier it has been to
+                meet new people and create instantly non
+                connections. I have the exact same personal
+                the only thing that has changed is my mind
+                set and a few behaviors. “</p>
+                <span class="triangle "></span>
+        </div>
+        
+        <div class="test-down mt-5 d-flex mt-5">
+            <div class="test-left">
+                <img src="assets/image/testimonial/image-2.png" alt="">
+            </div>
+            <div class=" test-right pt-1 ps-3">
+                <span class="d-block">Head of idea</span>
+                <h5>James C.Anderson</h5>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="col-lg-4 ms-4 me-24">
+        <div class="testbox">
+        <div class="test-desc">
+            <p>“ It’s amazing how much easier it has been to
+                meet new people and create instantly non
+                connections. I have the exact same personal
+                the only thing that has changed is my mind
+                set and a few behaviors. “</p>
+                <span class="triangle "></span>
+        </div>
+        
+        <div class="test-down mt-5 d-flex mt-5">
+            <div class="test-left">
+                <img src="assets/image/testimonial/image-3.png" alt="">
+            </div>
+            <div class=" test-right pt-1 ps-3">
+                <span class="d-block">Head of idea</span>
+                <h5>James C.Anderson</h5>
+            </div>
+        </div>
+        </div>
+    </div>
+    
+    <div class="col-lg-4 ms-4 me-24">
+        <div class="testbox">
+        <div class="test-desc">
+            <p>“ It’s amazing how much easier it has been to
+                meet new people and create instantly non
+                connections. I have the exact same personal
+                the only thing that has changed is my mind
+                set and a few behaviors. “</p>
+                <span class="triangle "></span>
+        </div>
+        
+        <div class="test-down mt-5 d-flex mt-5">
+            <div class="test-left">
+                <img src="assets/image/testimonial/image-1.png" alt="">
+            </div>
+            <div class=" test-right pt-1 ps-3">
+                <span class="d-block">Head of idea</span>
+                <h5>James C.Anderson</h5>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="col-lg-4  ms-4 me-24">
+        <div class="testbox">
+        <div class="test-desc">
+            <p>“ It’s amazing how much easier it has been to
+                meet new people and create instantly non
+                connections. I have the exact same personal
+                the only thing that has changed is my mind
+                set and a few behaviors. “</p>
+                <span class="triangle "></span>
+        </div>
+        
+        <div class="test-down mt-5 d-flex mt-5">
+            <div class="test-left">
+                <img src="assets/image/testimonial/image-2.png" alt="">
+            </div>
+            <div class=" test-right pt-1 ps-3">
+                <span class="d-block">Head of idea</span>
+                <h5>James C.Anderson</h5>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="col-lg-4 ms-4 me-24">
+        <div class="testbox">
+        <div class="test-desc">
+            <p>“ It’s amazing how much easier it has been to
+                meet new people and create instantly non
+                connections. I have the exact same personal
+                the only thing that has changed is my mind
+                set and a few behaviors. “</p>
+                <span class="triangle "></span>
+        </div>
+        
+        <div class="test-down mt-5 d-flex">
+            <div class="test-left">
+                <img src="assets/image/testimonial/image-3.png" alt="">
+            </div>
+            <div class=" test-right pt-1 ps-3 mt-5">
+                <span class="d-block">Head of idea</span>
+                <h5>James C.Anderson</h5>
+            </div>
+        </div>
+        </div>
+    </div>
+    
+</div>
+    </div>
+</div>
+
+<div class="arrivals mb-5">
+    <div class="container">
+        <div class="row mt-5 mb-5 align-items-center">
+            <div class="col-lg-4">
+               <div class="arrival-text">
+                <i class="fa-solid fa-basket-shopping"></i>
+                <span>This Week’s</span>
+                <h2>New Arrivals</h2>
+               </div>
+            </div>
+
+            <div class="col-lg-8 text-end">
+                <!-- <div class="arrival-arrows ">
+                    <div class="arrival-arrow-left ">
+                    <i class="fa-solid fa-arrow-left"></i>
+                    </div>
+                    <div class="arrival-arrow-right ms-2">
+                    <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div> -->
+            </div>
+         </div>
+
+         <div class="row">
+         <div class="arrival">
+            <div class="col-lg-3">
+                <div class="arrbox">
+                    <div class="arr-img">
+                        <a href="products.html"> 
+                        <img src="assets/image/arrivals/product-14.png" alt="">
+                        <p>20% OFF</p>
+                        </a>
+                    </div>
+    
+                    <div class="arr-down">
+                        <input id="input1" checked value="radioss" name="radios" type="radio">
+                        <input id="input2" value="radioss" name="radios" type="radio">
+                        <input id="input3" value="radioss" name="radios" type="radio">
+                        <p>Women's T'shirt</p>
+                        <span> <del>$60</del>$25</span>
+                        <div class="row mt-3  align-items-center text-center">
+                            <div class="col-lg-2 col-3 ">
+                                <a href="#" class="text-decoration-none ">
+                                  <i class="fa-regular fa-heart"></i>
+                                </a>
+                            </div>
+                            <div class="col-lg-7 add pt-2 col-6">
+                                <a href="#" class="text-decoration-none text-white ">
+                                    <span class="text-center fw-semibold">Add to Cart</span>
+                                </a>
+                            </div>
+                            <div class="col-lg-2 col-3">
+                                <a href="#" class="text-decoration-none ">
+                                    <i class="fas fa-eye "></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+              </div>    
+    
+              <div class="col-lg-3">
+                <div class="arrbox">
+                    <div class="arr-img">
+                        <a href="products.html">
+                        <img src="assets/image/arrivals/product-15.png" alt="">
+                        <p>20% OFF</p>
+                    </a>
+                    </div>
+    
+                    <div class="arr-down">
+                        <input  id="input1" value="radioss" name="radios" type="radio">
+                        <input  id="input2" value="radioss" name="radios" type="radio">
+                        <input  id="input3" value="radioss" name="radios" type="radio">
+                        <p>Women's T'shirt</p>
+                        <span> <del>$60</del>$25</span>
+                        <div class="row  mt-3 align-items-center text-center ">
+                            <div class="col-lg-2 col-3 ">
+                                <a href="#" class="text-decoration-none ">
+                                  <i class="fa-regular fa-heart"></i>
+                                </a>
+                            </div>
+                            <div class="col-lg-7 add pt-2 col-6">
+                                <a href="#" class="text-decoration-none text-white ">
+                                    <span class="text-center fw-semibold">Add to Cart</span>
+                                </a>
+                            </div>
+                            <div class="col-lg-2 col-3">
+                                <a href="#" class="text-decoration-none ">
+                                    <i class="fas fa-eye "></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+              </div>
+    
+              <div class="col-lg-3">
+                <div class="arrbox">
+                    <div class="arr-img">
+<a href="products.html">
+    <img src="assets/image/arrivals/product-4 (1).png" alt="">
+    <p>20% OFF</p>
+</a>
+                    </div>
+    
+                    <div class="arr-down">
+                        <input id="input1" value="radioss" name="radios" type="radio">
+                        <input id="input2" value="radioss" name="radios" type="radio">
+                        <input id="input3" value="radioss" name="radios" type="radio">
+                        <p>Women's T'shirt</p>
+                        <span> <del>$60</del>$25</span>
+                        <div class="row mt-3  align-items-center text-center  ">
+                            <div class="col-lg-2 col-3 ">
+                                <a href="#" class="text-decoration-none ">
+                                 <i class="fa-regular fa-heart"></i>
+                                </a>
+                            </div>
+                            <div class="col-lg-7 add pt-2 col-6">
+                                <a href="#" class="text-decoration-none text-white ">
+                                    <span class="text-center fw-semibold">Add to Cart</span>
+                                </a>
+                            </div>
+                            <div class="col-lg-2 col-3">
+                                <a href="#" class="text-decoration-none ">
+                                    <i class="fas fa-eye "></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+              </div>
+    
+              <div class="col-lg-3">
+                <div class="arrbox">
+                    <div class="arr-img">
+                        <a href="products.html"> 
+                        <img src="assets/image/arrivals/product-5.png" alt="">
+                        <p>20% OFF</p>
+                        </a>
+                    </div>
+    
+                    <div class="arr-down">
+                        <input id="input1" value="radioss" name="radios" type="radio">
+                        <input id="input2" value="radioss" name="radios" type="radio">
+                        <input id="input3" value="radioss" name="radios" type="radio">
+                        <p>Women's T'shirt</p>
+                        <span> <del>$60</del>$25</span>
+                        <div class="row mt-3  align-items-center text-center  ">
+                            <div class="col-lg-2 col-3 ">
+                                <a href="#" class="text-decoration-none ">
+                                 <i class="fa-regular fa-heart"></i>
+                                </a>
+                            </div>
+                            <div class="col-lg-7 add pt-2 col-6">
+                                <a href="#" class="text-decoration-none text-white ">
+                                    <span class="text-center fw-semibold">Add to Cart</span>
+                                </a>
+                            </div>
+                            <div class="col-lg-2 col-3">
+                                <a href="#" class="text-decoration-none ">
+                                    <i class="fas fa-eye "></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+              </div>
+    
+              <div class="col-lg-3">
+                <div class="arrbox">
+                    <div class="arr-img">
+                        <a href="products.html">
+                        <img src="assets/image/arrivals/product-10.png" alt="">
+                        <p>20% OFF</p>
+                        </a>
+                    </div>
+    
+                    <div class="arr-down">
+                        <input id="input1" value="radioss" name="radios" type="radio">
+                        <input id="input2" value="radioss" name="radios" type="radio">
+                        <input id="input3" value="radioss" name="radios" type="radio">
+                        <p>Women's T'shirt</p>
+                        <span> <del>$60</del>$25</span>
+                        <div class="row mt-3  align-items-center text-center  ">
+                            <div class="col-lg-2 col-3">
+                                <a href="#" class="text-decoration-none ">
+                                  <i class="fa-regular fa-heart"></i>
+                                </a>
+                            </div>
+                            <div class="col-lg-7 add pt-2 col-6">
+                                <a href="#" class="text-decoration-none text-white ">
+                                    <span class="text-center fw-semibold">Add to Cart</span>
+                                </a>
+                            </div>
+                            <div class="col-lg-2 col-3">
+                                <a href="#" class="text-decoration-none ">
+                                    <i class="fas fa-eye "></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+              </div>
+    
+              <div class="col-lg-3">
+                <div class="arrbox">
+                    <div class="arr-img">
+                        <a href="products.html">
+                        <img src="assets/image/arrivals/product-11.png" alt="">
+                        <p>20% OFF</p>
+                        </a>
+                    </div>
+    
+                    <div class="arr-down">
+                        <input id="input1" value="radioss" name="radios" type="radio">
+                        <input id="input2" value="radioss" name="radios" type="radio">
+                        <input id="input3" value="radioss" name="radios" type="radio">
+                        <p>Women's T'shirt</p>
+                        <span> <del>$60</del>$25</span>
+                        <div class="row mt-3  align-items-center text-center  ">
+                            <div class="col-lg-2 col-3 ">
+                                <a href="#" class="text-decoration-none ">
+                                   <i class="fa-regular fa-heart"></i>
+                                </a>
+                            </div>
+                            <div class="col-lg-7 add pt-2 col-6">
+                                <a href="#" class="text-decoration-none text-white ">
+                                    <span class="text-center fw-semibold">Add to Cart</span>
+                                </a>
+                            </div>
+                            <div class="col-lg-2 col-3">
+                                <a href="#" class="text-decoration-none ">
+                                    <i class="fas fa-eye "></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+              </div>
+    
+        
+              <div class="col-lg-3">
+                <div class="arrbox">
+                    <div class="arr-img">
+                        <a href="products.html">
+                        <img src="assets/image/arrivals/product-12.png" alt="">
+                        <p>20% OFF</p>
+                    </a>
+                    </div>
+    
+                    <div class="arr-down">
+                        <input id="input1" value="radioss" name="radios" type="radio">
+                        <input id="input2" value="radioss" name="radios" type="radio">
+                        <input id="input3" value="radioss" name="radios" type="radio">
+                        <p>Women's T'shirt</p>
+                        <span> <del>$60</del>$25</span>
+                        <div class="row mt-3  align-items-center text-center  ">
+                            <div class="col-lg-2 col-3 ">
+                                <a href="#" class="text-decoration-none ">
+                                  <i class="fa-regular fa-heart"></i>
+                                </a>
+                            </div>
+                            <div class="col-lg-7 add pt-2 col-6">
+                                <a href="#" class="text-decoration-none text-white ">
+                                    <span class="text-center fw-semibold">Add to Cart</span>
+                                </a>
+                            </div>
+                            <div class="col-lg-2 col-3">
+                                <a href="#" class="text-decoration-none ">
+                                    <i class="fas fa-eye "></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+              </div>
+    
+              <div class="col-lg-3">
+                <div class="arrbox">
+                    <div class="arr-img">
+                        <a href="products.html">
+                        <img src="assets/image/arrivals/product-13.png" alt="">
+                        <p>40% OFF</p>
+                    </a>
+                    </div>
+    
+                    <div class="arr-down">
+                        <input id="input1" value="radioss" name="radios" type="radio">
+                        <input id="input2" value="radioss" name="radios" type="radio">
+                        <input id="input3" value="radioss" name="radios" type="radio">
+                        <p>Women's T'shirt</p>
+                        <span> <del>$60</del>$25</span>
+                        <div class="row mt-3 align-items-center text-center  ">
+                            <div class="col-lg-2 col-3 ">
+                                <a href="#" class="text-decoration-none ">
+                                    <i class="fa-regular fa-heart"></i>
+                                </a>
+                            </div>
+                            <div class="col-lg-7 add pt-2 col-6">
+                                <a href="#" class="text-decoration-none text-white ">
+                                    <span class="text-center fw-semibold">Add to Cart</span>
+                                </a>
+                            </div>
+                            <div class="col-lg-2 col-3">
+                                <a href="#" class="text-decoration-none ">
+                                    <i class="fas fa-eye "></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+              </div>
+    
+         </div>
+         </div>
+
+    </div>
+</div>
+
+<div class="newsletter mt-5 mb-5">
+    <div class="container">
+        <div class="row ">
+          <div class="newsimg">
+            <div class="col-lg-6 col-12">
+                <div class="newsletter-text">
+                    <i class="fa-solid fa-envelope-open"></i>
+                    <span>Get weekly update</span>
+                    <h2>Get weekly update</h2>
+
+                   <div class="row new-desc align-items-center">
+                    <div class="col-lg-8">
+                        <div class="news-input border bg-white py-3 br-5">
+                                <img src="assets/image/mail/send-mail.png" class="ps-4 pe-2" alt="">
+                                <input type="text" placeholder="example@gmail.com" class="border-0 outline-none ">
+                             </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="news-btn">
+                            <button> Submit</button>
+                        </div>
+                    </div>
+                   </div>
+
+                </div>
+            </div>
+
+          </div>
+        </div>
+    </div>
+</div>
+
+<div class="service">
+    <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="all">
+
+            <div class="col-lg-3 col-12">
+                <div class="sbox">
+                    <div class="simg">
+                        <img width="44px" height="45px" src="assets/image/service/service1.png" alt="">
+                    </div>
+                    <div class="stext">
+                        <h6>Fast & Secure Delivery</h6>
+                        <p>Tell about your service.</p>
+                    </div>
+                </div>
+            </div>
+
+<div class="col-lg-3 col-12">
+    <div class="sbox">
+        <div class="simg">
+        <img width="44px" height="45px" src="assets/image/service/service2.png" alt="">    
+        </div>
+        <div class="stext">
+        <h6>Money Back Guarantee</h6>
+        <p>Within 10 days.</p>    
+        </div>
+    </div>
+</div>
+
+<div class="col-lg-3 col-12">
+    <div class="sbox">
+        <div class="simg">  
+        <img width="44px" height="45px" src="assets/image/service/service3.png" alt="">    
+        </div>
+        <div class="stext">
+        <h6>24 Hour Return Policy</h6>
+        <p>No question ask.</p>    
+        </div>
+    </div>
+</div>
+<div class="col-lg-3 col-12">
+    <div class="sbox">
+        <div class="simg">
+        <img width="44px" height="45px" src="assets/image/service/service4.png" alt="">    
+        </div>
+        <div class="stext"> 
+        <h6>Pro Quality Support</h6>
+        <p>24/7 Live support.</p>    
+        </div>
+    </div>
+</div>
+          </div>
+
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div class="container">
+        <div class="row align-items-center justify-content-between">
+         <div class="all">
+            <div class="col-lg-3 col-12 ">
+                <div class="fbox">
+                 <h5>Support</h5>
+ 
+                 <a href="">685 Market Street,</a>
+                 <a href="">Las Vegas, LA 95820,</a>
+                 <a href="">United States.</a>
+ 
+                 
+                 <a class="fmsg" href=""> <i class="fa-regular fa-envelope-open"></i>  example@domain.com</a>
+                 <a class="ftel" href=""> <i class="fa-solid fa-phone"></i> (+01) 850-315-5862</a>
+            
+                </div>
+         </div>
+             
+             <div class="col-lg-3 col-12">
+                <div class="fbox">
+                 <h5>Account</h5>
+                 
+                 <a href="">My Account</a>
+                 <a href="">Login / Register</a>
+                 <a href="">Cart</a>
+                 <a href="">Wishlist</a>
+                 <a href="">Shop</a>
+                </div>
+             </div>
+ 
+             <div class="col-lg-3 col-12">
+                 <div class="fbox">
+                     <h5>Quick Link</h5>
+ 
+                 <a href="">Privacy Policy</a>
+                 <a href="">Terms Of Use</a>
+                 <a href="">FAQ</a>
+                 <a href="">Contact</a>
+                 <a href="">Contact</a>
+                 </div>
+             </div>
+ 
+             <div class="col-lg-3 col-12">
+                <div class="fbox">
+                 <h5>Download App</h5>
+                 <a href="">Save $3 With App & New User only</a>
+           <div class="f-imgs">
+            <div class="fleft">
+                <img src="assets/image/footer/qr.png" alt="">
+            </div>
+            <div class="fright">
+                <img src="assets/image/footer/app-store.png" alt="">
+                <div class="frightb">
+                <img src="assets/image/footer/play-store.png" alt="">
+                </div>
+            </div>
+           </div>
+                </div>
+             </div>
+         </div>
+        </div>
+    </div>
+</footer>
+
+<div class="footer-copyright">
+   <div class="container">
+    <div class="row">
+        <div class="col-lg-4 col-12">
+            <div class="footer-icons">
+                <a href=""> <i class="fa-brands fa-facebook-f"></i>  </a>
+                <a href=""> <i class="fa-brands fa-instagram"></i>  </a>
+                <a href=""> <i class="fa-brands fa-twitter"></i>  </a>
+                <a href=""> <i class="fa-brands fa-linkedin-in"></i>  </a>
+                <a href=""> <i class="fa-brands fa-discord"></i>  </a>
+            </div>
+                </div>
+            
+                <div class="col-lg-4 col-12">
+            <div class="copy-text text-center">
+                <p>© 2022. All rights reserved by Axilthemes.</p>
+            </div>
+                </div>
+            
+                <div class="col-lg-4 col-12">
+            <div class="footer-payment text-end">
+                <span>Accept For</span>
+                <div class="copy-imgs">
+                    <img src="assets/image/footer/cart-1.png" alt="">
+                    <img src="assets/image/footer/cart-2.png" alt="">
+                    <img src="assets/image/footer/cart-5.png" alt="">
+                </div>
+            </div>
+                </div>
+            
+    </div>
+   </div>
+</div>
+
+        <script src="assets/js/jquery.js"></script>
+        <script src="https://scripts.sirv.com/sirvjs/v3/sirv.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.min.js" integrity="sha512-EKWWs1ZcA2ZY9lbLISPz8aGR2+L7JVYqBAYTq5AXgBkSjRSuQEGqWx8R1zAX16KdXPaCjOCaKE8MCpU0wcHlHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script src="assets/js/script.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>   
